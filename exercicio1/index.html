@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+// Exercicio 01 - Estrutira de Dados
+        //Aluno: Guilherme Caetano Machado Lima
+        //Matricula: 2214290059
+//Questão 1
+        const nome = prompt('Qual seu nome?');
+        alert(`Bem vindo ${nome}!`);
+//Questão 2
+        const idade = prompt('Qual sua idade?');
+        idade % 2 === 0 ? alert(`Sua idade ${idade} e par!`) : alert(`Sua idade ${idade} e impar!`);
+//Questão 3
+        let ano = prompt('Em que ano você nasceu?');
+        while(ano < 2025){
+            console.log(ano)
+        
+            ano++;
+
+        }
+ //Questão 4
+        let maiores = 0;
+        let menores = 0;
+        for(let i = 1; i < 11; i++){
+           let idade = prompt(`Digite a ${[i]}° idade`)
+            idade > 18 ? maiores++ : menores++;
+            
+        }
+        alert(`Maiores de idade: ${maiores} e menores de idade: ${menores}`);
+//Questão 5
+
+    class Aluno {
+        constructor(nome, idade, peso) {
+            this.nome = nome;
+            this.idade = idade;
+            this.peso = peso;
+        }
+    }
+
+    var meuAluno = new Aluno("Seu Nome", 25, 70.5);
+
+
+    meuAluno.nome = "Novo Nome";
+    meuAluno.idade = 26;
+    meuAluno.peso = 72.3;
+
+
+    console.log("Nome do aluno:", meuAluno.nome);
+    console.log("Idade do aluno:", meuAluno.idade);
+    console.log("Peso do aluno:", meuAluno.peso);
+
+        </script>
+
+</body>
+</html>

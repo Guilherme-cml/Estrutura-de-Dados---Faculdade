@@ -1,0 +1,12 @@
+Estrutura de Dados
+//Aula 01 - Introdução Estrutura de Dados
+
+- Na ciência da computação, uma estutura de dados é um modo de armazenamento e organização de dados para faciitar a busca e modificação
+- Os algoritmos manipilam dados, quando estes estão organizados (dispostos) de forma coerente, caracterizam uma forma, uma estrutura de dados
+- Numa lista encadeada existem dois campos. Um campo reservado para colocar o dado a
+ser armazenado e outro campo (ponteiro ou ligação) para apontar para o próximo
+elemento da lista
+- Fila é para qualquer situação FIFO - first in, first out (primeiro que entra é o primeiro
+que sai). Exemplos: playlist de músicas, pedidos de uma loja. 
+- Pilha é para situações de LIFO - last in, first out (último que entra é o primeiro que
+sai). Exemplo: feed de notícias.
